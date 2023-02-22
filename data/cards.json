@@ -1,0 +1,14 @@
+{
+    "rockData": {
+        "value": "rock",
+        "image": "/assets/images/rock.png"
+    },
+    "paperData": {
+        "value": "paper",
+        "image": "/assets/images/paper.png"
+    },
+    "scissorData": {
+        "value": "scissor",
+        "image": "/assets/images/scissor.png"
+    }
+}

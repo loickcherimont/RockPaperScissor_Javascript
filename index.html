@@ -21,6 +21,7 @@
                     </div>
                 </div>
             </div>
+            
             <div class="col" id="computerCard">
                 <div class="p-3 card" style="width:18rem;">
                     <img src="/assets/images/noCard.png" class="card-img-top" alt="Question mark">
@@ -32,8 +33,10 @@
         </div>
 
         <!-- Indicate if user won -->
-        <div class="alert alert-info" role="alert">
-            WINNER/ LOOSER/ NULL
+        <div id="resultPanel">
+            <div class="text-center fw-bold fs-1 alert alert-info d-none" role="alert" id="alertDraw">🤝 DRAW 🤝</div>
+            <div class="text-center fw-bold fs-1 alert alert-dark d-none" role="alert" id="alertLoss">What a shame ...</div>
+            <div class="text-center fw-bold fs-1 alert alert-warning d-none" role="alert" id="alertVictory">👑 VICTORY 👑</div>
         </div>
 
 

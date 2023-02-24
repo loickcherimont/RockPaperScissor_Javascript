@@ -1,3 +1,18 @@
-import { rockCard, paperCard, scissorCard } from "./Components.js";
+import { Game } from "./Components/Game.js";
 
-console.log(rockCard, paperCard, scissorCard);
+// Variables
+const rockPaperScissor = new Game();
+
+
+/** OBJECT CONSTRUCTION */
+
+
+// DON'T TOUCH IT !!!!
+// Uncomment the loop ONLY IF program is OK!!!
+// Main part for the app
+
+// while(true) {
+rockPaperScissor.static();
+// rockPaperScissor.logic();
+// }
+
